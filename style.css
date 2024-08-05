@@ -1,0 +1,62 @@
+body{
+    background-color: cornflowerblue;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    
+    
+}
+
+h1{
+    
+    
+    padding-top: 40px;
+}
+
+#randomBtn {
+
+    background-color: red;
+    color: white;
+    border: none;
+    padding:10px 20px;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px; /* Space between the button and the image */
+    margin-bottom: 20px;
+    
+  
+  
+}
+
+#randomBtn:hover{
+    opacity: 0.5;
+}
+
+img{
+    
+    border:solid black 3px;
+    width:300px;
+    height:auto;
+   
+    margin: 0 ; /* Remove any default margin around the image */
+    
+
+   
+    
+}
+
+#info_div{
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border: 4px black solid;
+    border-radius: 100px;
+    width: 40%;
+    
+}
+
